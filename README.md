@@ -26,7 +26,7 @@ Certifique-se de ter instalado todas as dependências necessárias antes de pros
 Compile o Darknet:
 
 
-Copy code
+
 cd darknet
 make
 Certifique-se de ajustar as configurações do Makefile, como a GPU e o OpenCV, conforme necessário.
@@ -34,26 +34,26 @@ Certifique-se de ajustar as configurações do Makefile, como a GPU e o OpenCV, 
 Faça o download dos pesos pré-treinados do modelo YOLOv3:
 
 
-Copy code
+
 wget https://pjreddie.com/media/files/yolov3.weights
 Treine a rede neural:
 
 
-Copy code
+
 ./darknet detector train obj.data yolov3.cfg yolov3.weights -dont_show
 Certifique-se de ter preparado corretamente os dados de treinamento, incluindo o arquivo obj.data e a configuração da rede yolov3.cfg.
 
 Execute a detecção de objetos:
 
 
-Copy code
+
 ./darknet detect obj.data yolov3.cfg yolov3.weights data/person.jpg -dont-show
 Isso executará a detecção de objetos na imagem person.jpg usando o modelo treinado.
 
 Referências
 Darknet repository: https://github.com/AlexeyAB/darknet
 YOLO: Real-Time Object Detection: https://pjreddie.com/darknet/yolo/
-Licença
+
 
 
 
