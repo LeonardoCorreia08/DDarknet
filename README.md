@@ -4,7 +4,7 @@ Código criado para utilização junto a plataforma da Digital Innovation One
 
 <p align="center"><img src="./Logo.png" width="500"></p>
 
-## Darknet Project
+# Darknet Project
 
 Este projeto é baseado no Darknet, uma estrutura de código aberto escrita em C e CUDA para treinamento e inferência de redes neurais convolucionais, com foco em detecção de objetos usando o algoritmo YOLO (You Only Look Once).
 
@@ -18,19 +18,20 @@ Certifique-se de ter instalado todas as dependências necessárias antes de pros
 
 ## Configuração
 
-1. Clone o repositório Darknet:
-
 ```bash
-   git clone https://github.com/AlexeyAB/darknet.git
+# Clone o repositório Darknet
+git clone https://github.com/AlexeyAB/darknet.git
 
-##Compile o Darknet:
-
-```bash
+# Compile o Darknet
 cd darknet
 make
-Certifique-se de ajustar as configurações do Makefile, como a GPU e o OpenCV, conforme necessário.
 
-Faça o download dos pesos pré-treinados do modelo YOLOv3:
+# Faça o download dos pesos pré-treinados do modelo YOLOv3
+wget https://pjreddie.com/media/files/yolov3.weights
+
+# Treine a rede neural
+./darknet detector train obj.data yolov3.cfg yolov3.weights -dont_show
+
 
 
 
