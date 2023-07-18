@@ -25,8 +25,7 @@ Certifique-se de ter instalado todas as dependências necessárias antes de pros
 
 Compile o Darknet:
 
-
-
+```bash
 cd darknet
 make
 Certifique-se de ajustar as configurações do Makefile, como a GPU e o OpenCV, conforme necessário.
