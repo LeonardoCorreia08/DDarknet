@@ -18,7 +18,6 @@ Certifique-se de ter instalado todas as dependências necessárias antes de pros
 
 ## Configuração
 
-```bash
 # Clone o repositório Darknet
 git clone https://github.com/AlexeyAB/darknet.git
 
