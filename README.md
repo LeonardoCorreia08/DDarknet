@@ -20,10 +20,10 @@ Certifique-se de ter instalado todas as dependências necessárias antes de pros
 
 1. Clone o repositório Darknet:
 
-   ```bash
+```bash
    git clone https://github.com/AlexeyAB/darknet.git
 
-Compile o Darknet:
+##Compile o Darknet:
 
 ```bash
 cd darknet
