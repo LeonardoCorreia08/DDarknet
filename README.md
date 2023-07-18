@@ -53,6 +53,8 @@ Referências
 Darknet repository: https://github.com/AlexeyAB/darknet
 YOLO: Real-Time Object Detection: https://pjreddie.com/darknet/yolo/
 
+## Contribuições
 
+Contribuições são bem-vindas! Se você encontrar algum problema, tiver sugestões ou quiser adicionar novos recursos, fique à vontade para abrir uma issue ou enviar um pull request.
 
 
