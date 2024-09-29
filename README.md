@@ -6,7 +6,7 @@ Código criado para utilização junto a plataforma da Digital Innovation One
 
 # Darknet Project
 
-Este projeto é baseado no Darknet, uma estrutura de código aberto escrita em Pythom e CUDA para treinamento e inferência de redes neurais convolucionais, com foco em detecção de objetos usando o algoritmo YOLO (You Only Look Once).
+Este projeto é baseado no Darknet, uma estrutura de código aberto escrita em Python e CUDA para treinamento e inferência de redes neurais convolucionais, com foco em detecção de objetos usando o algoritmo YOLO (You Only Look Once).
 
 ## Requisitos
 
